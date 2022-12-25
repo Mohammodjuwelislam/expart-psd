@@ -79,6 +79,15 @@
         font-size: 11px;
     }
 
+    .newsletter-form form input {
+        margin-bottom: 20px; 
+        width: 100%;   
+    }
+
+    .newsletter-form form button {
+        margin-left: 0px;
+    }
+
  
 }
  
