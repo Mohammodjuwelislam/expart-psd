@@ -4,7 +4,7 @@
 // meanmenu
 $('#mobile-menu').meanmenu({
 	meanMenuContainer: '.mobile-menu',
-	meanScreenWidth: "992"
+	meanScreenWidth: "777"
 });
 
 // One Page Nav
@@ -17,7 +17,7 @@ $('.main-menu nav ul').onePageNav({
 
 $(window).on('scroll', function () {
 	var scroll = $(window).scrollTop();
-	if (scroll < 245) {
+	if (scroll < 100) {
 		$(".header-sticky").removeClass("sticky");
 	} else {
 		$(".header-sticky").addClass("sticky");
