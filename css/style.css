@@ -317,16 +317,15 @@ a{
 
 
 /* header-top-area-css-code-start */
-.header-sticky{
-	position: fixed;
-	top: 0;
+.header-area.sticky{
+    position: fixed;
+    top: 0;
 	left: 0;
 	right: 0;
-	width: 100%;
-	z-index: 999;
-	box-shadow: -5px 31px 24px -10px rgba(13,8,8,0.67);
-	-webkit-box-shadow: -5px 31px 24px -10px rgba(13,8,8,0.67);
-	-moz-box-shadow: -5px 31px 24px -10px rgba(13,8,8,0.67);
+    width: 100%;
+	z-index: 98;
+	transition: .3s;
+	
 }
 
 

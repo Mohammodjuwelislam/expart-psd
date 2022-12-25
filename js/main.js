@@ -17,10 +17,10 @@ $('.main-menu nav ul').onePageNav({
 
 $(window).on('scroll', function () {
 	var scroll = $(window).scrollTop();
-	if (scroll < 100) {
-		$(".header-sticky").removeClass("sticky");
+	if (scroll < 1) {
+		$("#header-sticky").removeClass("sticky");
 	} else {
-		$(".header-sticky").addClass("sticky");
+		$("#header-sticky").addClass("sticky");
 	}
 });
 
